@@ -3,7 +3,7 @@ import ObtenerLinkVideo
 import spotipy, requests
 # from spotipy.oauth2 import SpotifyClientCredentials
 
-# sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="97b7489767a84269b0b7e60ea5e69c67",client_secret="4b96c37044544ae590aef6f9c6be80f2"))
+# sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="CLIENT_ID",client_secret="SECRET"))
 token = token = requests.get(
         "https://open.spotify.com/get_access_token?reason=transport&productType=web_player"
     ).json()
